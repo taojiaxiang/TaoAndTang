@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD57C431C4CDAFE000B0109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD57C421C4CDAFE000B0109 /* main.m */; };
+		BCD57C461C4CDAFE000B0109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD57C451C4CDAFE000B0109 /* AppDelegate.m */; };
+		BCD57C491C4CDAFE000B0109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD57C481C4CDAFE000B0109 /* ViewController.m */; };
+		BCD57C4C1C4CDAFE000B0109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD57C4A1C4CDAFE000B0109 /* Main.storyboard */; };
+		BCD57C4E1C4CDAFE000B0109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD57C4D1C4CDAFE000B0109 /* Assets.xcassets */; };
+		BCD57C511C4CDAFE000B0109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD57C4F1C4CDAFE000B0109 /* LaunchScreen.storyboard */; };
+		BCD57C5C1C4CDAFE000B0109 /* TaoAndTangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD57C5B1C4CDAFE000B0109 /* TaoAndTangTests.m */; };
+		BCD57C671C4CDAFE000B0109 /* TaoAndTangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD57C661C4CDAFE000B0109 /* TaoAndTangUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD57C581C4CDAFE000B0109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD57C361C4CDAFE000B0109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD57C3D1C4CDAFE000B0109;
+			remoteInfo = TaoAndTang;
+		};
+		BCD57C631C4CDAFE000B0109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD57C361C4CDAFE000B0109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD57C3D1C4CDAFE000B0109;
+			remoteInfo = TaoAndTang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCD57C3E1C4CDAFE000B0109 /* TaoAndTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoAndTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD57C421C4CDAFE000B0109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD57C441C4CDAFE000B0109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCD57C451C4CDAFE000B0109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCD57C471C4CDAFE000B0109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCD57C481C4CDAFE000B0109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCD57C4B1C4CDAFE000B0109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD57C4D1C4CDAFE000B0109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD57C501C4CDAFE000B0109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD57C521C4CDAFE000B0109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD57C571C4CDAFE000B0109 /* TaoAndTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoAndTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD57C5B1C4CDAFE000B0109 /* TaoAndTangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoAndTangTests.m; sourceTree = "<group>"; };
+		BCD57C5D1C4CDAFE000B0109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD57C621C4CDAFE000B0109 /* TaoAndTangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoAndTangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD57C661C4CDAFE000B0109 /* TaoAndTangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoAndTangUITests.m; sourceTree = "<group>"; };
+		BCD57C681C4CDAFE000B0109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD57C3B1C4CDAFE000B0109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD57C541C4CDAFE000B0109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD57C5F1C4CDAFE000B0109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD57C351C4CDAFE000B0109 = {
+			isa = PBXGroup;
+			children = (
+				BCD57C401C4CDAFE000B0109 /* TaoAndTang */,
+				BCD57C5A1C4CDAFE000B0109 /* TaoAndTangTests */,
+				BCD57C651C4CDAFE000B0109 /* TaoAndTangUITests */,
+				BCD57C3F1C4CDAFE000B0109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD57C3F1C4CDAFE000B0109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD57C3E1C4CDAFE000B0109 /* TaoAndTang.app */,
+				BCD57C571C4CDAFE000B0109 /* TaoAndTangTests.xctest */,
+				BCD57C621C4CDAFE000B0109 /* TaoAndTangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD57C401C4CDAFE000B0109 /* TaoAndTang */ = {
+			isa = PBXGroup;
+			children = (
+				BCD57C441C4CDAFE000B0109 /* AppDelegate.h */,
+				BCD57C451C4CDAFE000B0109 /* AppDelegate.m */,
+				BCD57C471C4CDAFE000B0109 /* ViewController.h */,
+				BCD57C481C4CDAFE000B0109 /* ViewController.m */,
+				BCD57C4A1C4CDAFE000B0109 /* Main.storyboard */,
+				BCD57C4D1C4CDAFE000B0109 /* Assets.xcassets */,
+				BCD57C4F1C4CDAFE000B0109 /* LaunchScreen.storyboard */,
+				BCD57C521C4CDAFE000B0109 /* Info.plist */,
+				BCD57C411C4CDAFE000B0109 /* Supporting Files */,
+			);
+			path = TaoAndTang;
+			sourceTree = "<group>";
+		};
+		BCD57C411C4CDAFE000B0109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD57C421C4CDAFE000B0109 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD57C5A1C4CDAFE000B0109 /* TaoAndTangTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD57C5B1C4CDAFE000B0109 /* TaoAndTangTests.m */,
+				BCD57C5D1C4CDAFE000B0109 /* Info.plist */,
+			);
+			path = TaoAndTangTests;
+			sourceTree = "<group>";
+		};
+		BCD57C651C4CDAFE000B0109 /* TaoAndTangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD57C661C4CDAFE000B0109 /* TaoAndTangUITests.m */,
+				BCD57C681C4CDAFE000B0109 /* Info.plist */,
+			);
+			path = TaoAndTangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD57C3D1C4CDAFE000B0109 /* TaoAndTang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD57C6B1C4CDAFE000B0109 /* Build configuration list for PBXNativeTarget "TaoAndTang" */;
+			buildPhases = (
+				BCD57C3A1C4CDAFE000B0109 /* Sources */,
+				BCD57C3B1C4CDAFE000B0109 /* Frameworks */,
+				BCD57C3C1C4CDAFE000B0109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoAndTang;
+			productName = TaoAndTang;
+			productReference = BCD57C3E1C4CDAFE000B0109 /* TaoAndTang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD57C561C4CDAFE000B0109 /* TaoAndTangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD57C6E1C4CDAFE000B0109 /* Build configuration list for PBXNativeTarget "TaoAndTangTests" */;
+			buildPhases = (
+				BCD57C531C4CDAFE000B0109 /* Sources */,
+				BCD57C541C4CDAFE000B0109 /* Frameworks */,
+				BCD57C551C4CDAFE000B0109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD57C591C4CDAFE000B0109 /* PBXTargetDependency */,
+			);
+			name = TaoAndTangTests;
+			productName = TaoAndTangTests;
+			productReference = BCD57C571C4CDAFE000B0109 /* TaoAndTangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD57C611C4CDAFE000B0109 /* TaoAndTangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD57C711C4CDAFE000B0109 /* Build configuration list for PBXNativeTarget "TaoAndTangUITests" */;
+			buildPhases = (
+				BCD57C5E1C4CDAFE000B0109 /* Sources */,
+				BCD57C5F1C4CDAFE000B0109 /* Frameworks */,
+				BCD57C601C4CDAFE000B0109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD57C641C4CDAFE000B0109 /* PBXTargetDependency */,
+			);
+			name = TaoAndTangUITests;
+			productName = TaoAndTangUITests;
+			productReference = BCD57C621C4CDAFE000B0109 /* TaoAndTangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD57C361C4CDAFE000B0109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TAO;
+				TargetAttributes = {
+					BCD57C3D1C4CDAFE000B0109 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BCD57C561C4CDAFE000B0109 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BCD57C3D1C4CDAFE000B0109;
+					};
+					BCD57C611C4CDAFE000B0109 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BCD57C3D1C4CDAFE000B0109;
+					};
+				};
+			};
+			buildConfigurationList = BCD57C391C4CDAFE000B0109 /* Build configuration list for PBXProject "TaoAndTang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD57C351C4CDAFE000B0109;
+			productRefGroup = BCD57C3F1C4CDAFE000B0109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD57C3D1C4CDAFE000B0109 /* TaoAndTang */,
+				BCD57C561C4CDAFE000B0109 /* TaoAndTangTests */,
+				BCD57C611C4CDAFE000B0109 /* TaoAndTangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD57C3C1C4CDAFE000B0109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD57C511C4CDAFE000B0109 /* LaunchScreen.storyboard in Resources */,
+				BCD57C4E1C4CDAFE000B0109 /* Assets.xcassets in Resources */,
+				BCD57C4C1C4CDAFE000B0109 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD57C551C4CDAFE000B0109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD57C601C4CDAFE000B0109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD57C3A1C4CDAFE000B0109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD57C491C4CDAFE000B0109 /* ViewController.m in Sources */,
+				BCD57C461C4CDAFE000B0109 /* AppDelegate.m in Sources */,
+				BCD57C431C4CDAFE000B0109 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD57C531C4CDAFE000B0109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD57C5C1C4CDAFE000B0109 /* TaoAndTangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD57C5E1C4CDAFE000B0109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD57C671C4CDAFE000B0109 /* TaoAndTangUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD57C591C4CDAFE000B0109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD57C3D1C4CDAFE000B0109 /* TaoAndTang */;
+			targetProxy = BCD57C581C4CDAFE000B0109 /* PBXContainerItemProxy */;
+		};
+		BCD57C641C4CDAFE000B0109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD57C3D1C4CDAFE000B0109 /* TaoAndTang */;
+			targetProxy = BCD57C631C4CDAFE000B0109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD57C4A1C4CDAFE000B0109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD57C4B1C4CDAFE000B0109 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD57C4F1C4CDAFE000B0109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD57C501C4CDAFE000B0109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD57C691C4CDAFE000B0109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD57C6A1C4CDAFE000B0109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD57C6C1C4CDAFE000B0109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoAndTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TAO.TaoAndTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD57C6D1C4CDAFE000B0109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoAndTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TAO.TaoAndTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD57C6F1C4CDAFE000B0109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoAndTangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TAO.TaoAndTangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoAndTang.app/TaoAndTang";
+			};
+			name = Debug;
+		};
+		BCD57C701C4CDAFE000B0109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoAndTangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TAO.TaoAndTangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoAndTang.app/TaoAndTang";
+			};
+			name = Release;
+		};
+		BCD57C721C4CDAFE000B0109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoAndTangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TAO.TaoAndTangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoAndTang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCD57C731C4CDAFE000B0109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoAndTangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TAO.TaoAndTangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoAndTang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD57C391C4CDAFE000B0109 /* Build configuration list for PBXProject "TaoAndTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD57C691C4CDAFE000B0109 /* Debug */,
+				BCD57C6A1C4CDAFE000B0109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD57C6B1C4CDAFE000B0109 /* Build configuration list for PBXNativeTarget "TaoAndTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD57C6C1C4CDAFE000B0109 /* Debug */,
+				BCD57C6D1C4CDAFE000B0109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD57C6E1C4CDAFE000B0109 /* Build configuration list for PBXNativeTarget "TaoAndTangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD57C6F1C4CDAFE000B0109 /* Debug */,
+				BCD57C701C4CDAFE000B0109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD57C711C4CDAFE000B0109 /* Build configuration list for PBXNativeTarget "TaoAndTangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD57C721C4CDAFE000B0109 /* Debug */,
+				BCD57C731C4CDAFE000B0109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD57C361C4CDAFE000B0109 /* Project object */;
+}
