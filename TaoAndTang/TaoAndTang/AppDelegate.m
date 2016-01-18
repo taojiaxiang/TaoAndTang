@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     
     //fuck tang
+    //hey im your dada
     
     return YES;
 }
