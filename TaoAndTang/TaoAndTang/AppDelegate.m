@@ -21,6 +21,8 @@
     //fuck tang
     //hey im your dada
     //我是小天使
+    //傻逼
+    
     return YES;
 }
 
